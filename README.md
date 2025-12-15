@@ -244,26 +244,6 @@ Edit `frontend/src/lib/config.ts`:
 
 ---
 
-## Troubleshooting
-
-### Models Don't Download
-**Issue**: First startup takes time (5-10 minutes)  
-**Solution**: Models download automatically; wait for completion
-
-### Audio Not Working
-**Issue**: Microphone not capturing  
-**Solution**: Check browser permissions, allow microphone access
-
-### Translation Quality Issues
-**Issue**: Poor translations  
-**Solution**: Ensure V2 adapter is loaded (check logs for "V2 includes")
-
-### WebSocket Connection Fails
-**Issue**: Frontend can't connect to backend  
-**Solution**: Ensure backend is running on port 8000
-
----
-
 ## Development
 
 ### Project Structure
@@ -297,35 +277,3 @@ npm test
 - **Qwen**: Alibaba's language model
 - **faster-whisper**: Efficient Whisper implementation
 - **Exa**: Web search API
-
----
-
-## License
-
-This project is licensed under the MIT License - see below for details.
-
-```
-MIT License
-
-Copyright (c) 2024
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-*Note: The MIT License is included because it's a standard open-source license that allows others to use, modify, and distribute the code while requiring attribution. It provides legal protection while encouraging collaboration.*

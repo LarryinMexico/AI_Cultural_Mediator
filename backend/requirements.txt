@@ -1,0 +1,14 @@
+fastapi>=0.104.0
+uvicorn>=0.24.0
+python-socketio>=5.10.0
+mlx-lm>=0.0.9
+RealtimeSTT
+exa-py
+aiohttp
+datasets
+matplotlib>=3.8.0
+python-multipart>=0.0.9
+requests>=2.31.0
+RealtimeSTT==0.3.104
+scipy
+mlx-lm
